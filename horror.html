@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <img src="https://w7.pngwing.com/pngs/268/272/png-transparent-books-read-library-bookstore-bookshop-logo.png" style="width: 100px;" >
+    <p>__</p>
+    <a class="navbar-brand" href="#"> <h2 style="color: bisque;">BuyYourBook</h2> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <nav class="navbar bg-body-tertiary">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Categories</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Best Sellers</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link btn btn-primary text-white" href="#">Login</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  
+    
+
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col-9">
+        <div class="container-fluid text-center" style="background-color: antiquewhite;">
+            <div class="row row-cols-9" style="padding-top: 5px;">
+              <div class="col" id="product1" >
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ7CgG5r4yT6h42Wfbryij50dlJiJdJ7zqFKbZF1O_3aXp57jwp" alt="" style="width: 200px; height: 250px;">
+                <h4 >Dracula By
+                  Bram Stoker
+                </h4>
+               <h5 style="color: brown;" >Rs 499/-</h5>
+               <button onclick="addToCart('Dracula By Bram Stoke', 499.00)">Add to Cart</button>
+              </div>
+              <div class="col" id="product2">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQp_-CV4k0qUBAveSa4brbKsfgTHT9eaYDppEnjhpEB8AyH9hSi" alt="" style="width: 200px; height: 250px;">
+                <h4 >The Shining By Stephen King
+                </h4>
+               <h5 style="color: brown;" >Rs 499/-</h5>
+               <button onclick="addToCart('The Shining By Stephen King', 499.00)">Add to Cart</button>
+              </div>
+              <div class="col" id="product3">
+                <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTSr3b0yUQBXK9Uv5JqasUBq3UK46u9yR31WnIzsXlmxv7WS05l" alt="" style="width: 200px; height: 250px;">
+                <h4 >The Haunting of Hill House
+                </h4>
+               <h5 style="color: brown;" >Rs 499/-</h5>
+               <button onclick="addToCart('The Haunting of Hill House3', 499.00)">Add to Cart</button>
+              </div>
+              <div class="col" id="product4">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcREXGyJVmtromg2ra-ZsnwzmVSbQRXwcNZ6cSLhOFJAulV-Hny4" alt="" style="width: 200px; height: 250px;">
+                <h4 >'Salem's Lot  By  Stephen King
+                  
+                </h4>
+               <h5 style="color: brown;" >Rs 499/-</h5>
+               <button onclick="addToCart('Salems Lot  By  Stephen King', 499.00)">Add to Cart</button>
+              </div>
+              <div class="col" id="product5">
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQQo4RiSsAxrPiaqZ3Nvsr13s1MogIYLF2VmaO-1s5--LSLew3I" alt="" style="width: 200px; height: 250px;">
+                <h4 >Come closer By  Sara Gran 
+                
+                </h4>
+               <h5 style="color: brown;" >Rs 499/-</h5>
+               <button onclick="addToCart('Come closer By  Sara Gran ', 499.00)">Add to Cart</button>
+           </div>
+           <div class="col" id="product6">
+            <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSKMOLv3p6lk1F0dpHNJYZBykfeFR3aHQo245ooGkefA1Gnwhz7" alt="" style="width: 200px; height: 250px;">
+            <h4 >The Ruins By
+              Scott Smith
+            </h4>
+            <h5 style="color: brown;" >Rs 499/-</h5>
+            <button onclick="addToCart('The Ruins By Scott Smith', 499.00)">Add to Cart</button>
+          </div>
+          <div class="col" id="product7">
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRDcrbklTK6jpVGXy4mbCAkPyVfg8kW_bd3aPz4NYrwYMtx8Hv-" alt="" style="width: 200px; height: 250px;">
+            <h4 >Horrorstör By Grady Hendrix
+            </h4>
+            <h5 style="color: brown;" >Rs 499/-</h5>
+            <button onclick="addToCart('Horrorstör By Grady Hendrix', 499.00)">Add to Cart</button>
+          </div>
+          <div class="col" id="product8">
+            <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQpQRBYFPQ776beUVpMgih6KsqYZw5dJPqNNHc5oQMICY6uOAjt" alt="" style="width: 200px; height: 250px;">
+            <h4 >The Good House By
+              Tananarive Due
+            </h4>
+            <h5 style="color: brown;" >Rs 499/-</h5>
+            <button onclick="addToCart('The Good House By Tananarive Due', 499.00)">Add to Cart</button>
+          </div>
+          </div>
+          </div>
+      </div>
+      <div class="col-3">
+        <h2>Shopping Cart</h2>
+        <ul id="cartItems">
+            <!-- Cart items will be added here dynamically -->
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

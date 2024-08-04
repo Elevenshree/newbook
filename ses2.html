@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Responsive Web Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+        <img src="https://w7.pngwing.com/pngs/268/272/png-transparent-books-read-library-bookstore-bookshop-logo.png" style="width: 100px;" >
+        <p>__</p>
+        <a class="navbar-brand"  href="#"> <h2 style="color: bisque;">BuyYourBook</h2> </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <nav class="navbar bg-body-tertiary">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
+            </nav>
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Categories</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Best Sellers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-primary text-white" href="#">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container-fluid" style="background-color:rgb(248, 252, 255);">
+        
+        <div class="row">
+          <div class="col-md-4" style="padding: 0%;">
+            <img src="https://img.freepik.com/free-photo/abundant-collection-antique-books-wooden-shelves-generated-by-ai_188544-29660.jpg?size=626&ext=jpg&ga=GA1.1.1518270500.1717459200&semt=sphg" style="height: 560px; width: 1500px;" class="d-block w-00"  alt="...">
+          
+            </div>
+          <div class="col-md-4" style="background-color: rgb(41, 26, 8); text-align: center;">
+            <div id="carouselExample" class="carousel slide" >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <h2 style="color: blanchedalmond;"> Best Sellers</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <img src="https://gitmind.com/wp-content/uploads/2023/04/harry-potter-in-order.jpg" class="d-block w-100" alt="...">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <h4 style="color: orange; text-align: center;"> HARRY POTTER </h4>
+                  <h6 style="color: rgb(244, 241, 236); text-align: center;"> JK ROWLING</h6>
+                  <button type="button" class="btn" style="background-color: bisque;"><a href="harry.html" style="color: rgb(7, 6, 5);">Search</a></button>
+ 
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: blanchedalmond;"> Recommendation</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <img src="https://cdn.pixabay.com/photo/2015/11/19/21/10/glasses-1052010_640.jpg" style="padding: 3px; height: 300px;" class="d-block w-100" alt="...">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <h4 style="color: orange; text-align: center;"> MURDER ON THE LINKS </h4>
+                  <h6 style="color: rgb(244, 241, 236); text-align: center;"> AGATHA CHRISTLE</h6>
+                  <button type="button" class="btn" style="background-color: bisque;"><a href="mystery.html" style="color: rgb(7, 6, 5);">Search</a></button>
+                </div>
+                <div class="carousel-item" >
+                    <h2 style="color: blanchedalmond;"> Flash Deals </h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <img src="https://img.freepik.com/premium-photo/pile-old-books-with-glasses-desk_1149271-16862.jpg"  style="padding: 3px; height: 300px;" class="d-block w-100" alt="...">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <h4 style="color: orange; text-align: center;"> ALL TIME FAVORITE </h4>
+                  <button type="button" class="btn" style="background-color: bisque;"><a href="horror.html" style="color: rgb(7, 6, 5);">Search</a></button>
+                  
+                </div>
+                <div class="carousel-item">
+                    <h2 style="color: blanchedalmond;"> 50% OFF</h2>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <img src="https://www.shutterstock.com/shutterstock/photos/1795878760/display_1500/stock-vector-promo-sale-banner-for-library-bookshop-and-bookstore-a-large-number-of-books-stacked-in-piles-a-1795878760.jpg" style="padding: 3px; height: 300px;" class="d-block w-100" alt="...">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXCCSDjVJgnxNFUEYE-ePhsBVE_MN_sAvt-A&s" style="height: 50px;" class="d-block w-100"  alt="...">
+                  <h4 style="color: orange; text-align: center;"> Special Offer </h4>
+                  <button type="button" class="btn" style="background-color: bisque;"><a href="harry.html" style="color: rgb(7, 6, 5);">Search</a></button>
+                </div>
+                
+              </div>
+             
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4" style="padding: 0px;">
+            
+          </div>
+        </div>
+      </div>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <ul class="container-fluid" style="background-color: rgb(0, 0, 0); ">
+          <a class="navbar-brand" style="color: rgb(219, 210, 210);">All</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent" style="background-color:rgb(0, 0, 0); ">
+            <ul class="navbar-nav ">
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Deals</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Best sellers</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Bogo sale</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Used</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Todays deal</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Sell</a>
+              </li>
+              <li class="nava-item">
+                <a class="nav-link" style="color: rgb(237, 223, 223);" href="#">Combos</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(235, 231, 231);" aria-expanded="false"  >
+                  Books To Buy
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Fiction  </a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Detective</a></li>
+                  <li><a class="dropdown-item" href="#">Crime</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">BioGraphy</a></li>
+                  <li><a class="dropdown-item" href="#">Harry Potter </a></li>
+                  <li><a class="dropdown-item" href="#">Fairy Tales</a></li>
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" style="color: rgb(235, 231, 231);" aria-expanded="false"  >
+                 Digital Library 
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Eduction</a></li>
+                 
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Funtime Comics</a></li>
+                  <li><a class="dropdown-item" href="#">Fiction</a></li>
+                  <li><a class="dropdown-item" href="#">History</a></li>
+                  <li><a class="dropdown-item" href="#">Horrors</a></li>
+                  
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Detective</a></li>
+                  <li><a class="dropdown-item" href="#">BioGraphy</a></li>
+                  <li><a class="dropdown-item" href="#">Romance</a></li>
+                  <li><a class="dropdown-item" href="#">Fairy Tales</a></li>
+                </ul>
+              </li>
+             
+            </ul>
+            
+          </div>
+        </div>
+        </ul>
+      </nav>
+      <div class="container-fluid text-center">
+        <div class="row">
+          <div class="col-4" style="background-color: antiquewhite;">
+            <div class="container text-center">
+              <div class="row row-cols-2 row-cols-lg-4 g-1 g-lg-1">
+                <div class="col">
+                  <div class="p-1"  style="text-align: center;">
+                    <img src="https://m.media-amazon.com/images/I/715jjfXVBlL._AC_UF1000,1000_QL80_.jpg" style="width:100px; height: 150px;" >
+                    <p> Horror Finds
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://m.media-amazon.com/images/I/41kEmsShYsL.jpg" style="width:100px; height: 150px;">
+                    <p> Mystery 
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOy_KIg_oIOSxwWyhznohyR4UIq2JHpvFRaPvEwVEnA&s" style="width:100px; height: 150px;">
+                    <p> Detective 
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEfMGqoZnnYNZIY-FoXU3D-xiiv3pD8VeUro3f3ivMrQ&s" style="width:100px; height: 150px;">
+                    <p> Fairy Tales
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://m.media-amazon.com/images/I/61MIvCmsDAL._AC_UF1000,1000_QL80_.jpg" style="width:100px; height: 150px;">
+                    <p> Thriller Stories
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIWZm-YNeEKKaJaQvKG_7A_hD29eM-uXC_9GdFr71Yew&s" style="width:100px; height: 150px;">
+                    <p> Fantasy Finds
+                      <a   href="mystery.htmll" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://m.media-amazon.com/images/I/81q77Q39nEL._AC_UF1000,1000_QL80_.jpg" style="width:100px; height: 150px;">
+                    <p> HarryPotter
+                      <a   href="harry.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://m.media-amazon.com/images/I/51nIylf2LRL.jpg" style="width:100px; height: 150px;">
+                    <p> Rom-Com
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                    </p>
+                    
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+          <div class="col-4"  style="background-color: antiquewhite; padding-left: 0px; ">
+            <div class="container-fluid">
+            <img src="https://static01.nyt.com/images/2017/05/11/t-magazine/bookstore-slide-2MCD/bookstore-slide-2MCD-superJumbo.jpg" style="width: 465px;  height: 460px;padding-left: 0px;">
+          
+          </div>
+        </div>
+          <div class="col-4" style="background-color: antiquewhite;">
+            <div class="container text-center">
+              <div class="row row-cols-2 row-cols-lg-4 g-1 g-lg-1">
+                <div class="col">
+                  <div class="p-1" >
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAis6YbgP9X9vnliJEQitDcKCyoTcs_rb0sb-xf7yIkg&s" style="width:100px; height: 150px;" >
+                    <p> Comics
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                 </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://m.media-amazon.com/images/I/51xwFZin4pL._AC_UF1000,1000_QL80_.jpg" style="width:100px; height: 150px;">
+                  <p>Fiction  
+                    <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                </p>
+               </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://ik.imagekit.io/panmac/tr:f-auto,di-placeholder_portrait_aMjPtD9YZ.jpg,w-171/edition/9781035006205.jpg" style="width:100px; height: 150px;">
+                    <p> Romance
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="p-1">
+                    <img src="https://m.media-amazon.com/images/I/418IcW44fjL.jpg" style="width:100px; height: 150px;">
+                    <p> Science 
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="data:image/jpeg;base64,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" style="width:100px; height: 150px;">
+                    <p>Crime story
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://m.media-amazon.com/images/I/51kU2A7hN7L._AC_UF1000,1000_QL80_.jpg" style="width:100px; height: 150px;">
+                    <p> Autobiography
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTefqUsduclzuqp02ORPm7Z5IemA24VseBvnH5Wp7Au9g&s" style="width:100px; height: 150px;">
+                    <p>History books
+                      <a   href="horror.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                </div>
+                </div>
+                <div class="col">
+                  <div class="p-0">
+                    <img src="https://assets.brightspot.abebooks.a2z.com/dims4/default/f40ef4b/2147483647/strip/true/crop/1500x1500+0+0/resize/526x526!/quality/90/?url=http%3A%2F%2Fabebooks-brightspot.s3.us-west-2.amazonaws.com%2F70%2F47%2Fcafa029e4ff1bb41f1f817f30d43%2Fcharlottes-web-by-e.B.%20White.jpg" style="width:100px; height: 150px;">
+                    <p> Classics
+                      <a   href="mystery.html" style="color: rgb(151, 91, 193);">Search</a>
+                  </p>
+                 </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</body>
+</html>
